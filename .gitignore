@@ -9,6 +9,7 @@
 *.dll.config
 *.cache
 *.suo
+*.editorconfig
 # Include dlls if they’re in the NuGet packages directory
 !/packages/*/lib/*.dll
 !/packages/*/lib/*/*.dll
@@ -78,3 +79,5 @@ _[Ss]cripts
 *.cache
 /.vs
 /Seção 3 web API/29_APICatalogo_Try_Catch_Net8/APICatalogo/.vs
+/Seção 3 web API/7_APICatalogo_net8/7_APICatalogo_net8/APICatalogo/APICatalogo/obj/Debug/net8.0/APICatalogo.AssemblyInfoInputs.cache
+/Seção 3 web API/3_CriaProjetoNET8/APICatalogo/APICatalogo/obj/Debug/net8.0/APICatalogo.GeneratedMSBuildEditorConfig.editorconfig
