@@ -25,6 +25,8 @@ _UpgradeReport_Files/
 bin/
 obj/
 TestResults/
+.vs/
+vs/
 ###################
 # Web publish log #
 ###################
@@ -73,5 +75,6 @@ _[Ss]cripts
 *.nupkg
 *.ncrunchsolution
 *.dot[Cc]over
+*.cache
 /.vs
 /Seção 3 web API/29_APICatalogo_Try_Catch_Net8/APICatalogo/.vs
