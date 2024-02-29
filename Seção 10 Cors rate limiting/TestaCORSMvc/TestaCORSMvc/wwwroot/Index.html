@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de CORS</title>
+</head>
+<body>
+    <h1>Teste de CORS</h1>
+    <div>
+        <button onclick="makeRequest1()">Todas as Categorias  -> GET /categorias</button>
+        <br /><br />
+        <button onclick="makeRequest2()">Categoria com ID igual a 2 -> GET /categorias/2</button>
+    </div>
+    <script>
+        function makeRequest1() {
+            fetch('https://localhost:7278/categorias')
+                .then(response => response.json())
+                .then(data => console.log(data))
+                .catch(error => console.error('Erro na solicitação:', error));
+        }
+        function makeRequest2() {
+            fetch('https://localhost:7278/categorias/2')
+                .then(response => response.json())
+                .then(data => console.log(data))
+                .catch(error => console.error('Erro na solicitação:', error));
+        }
+    </script>
+</body>
+</html>
